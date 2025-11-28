@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#box{
+    height: 100%;
+    width: 100%;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 50000px;
+}
+
+img {
+    height: 500px;
+    width: auto;
+    object-fit: cover;
+    transform: translateY(20%) translateX(50%);
+    transform: rotateX(45deg) rotateY(20deg) rotateZ(20deg);
+}
+
