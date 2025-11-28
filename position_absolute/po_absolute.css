@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: aquamarine;
+    padding: 15px;
+}
+
+#parent {
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+#child {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    background-color: red;
+}
+
+/* If we give any object postion absolute it will become free and if its parent is not given positon relative it behavior become relative to body. */
